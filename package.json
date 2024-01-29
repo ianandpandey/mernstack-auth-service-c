@@ -8,7 +8,8 @@
     "formate:check": "prettier . --check",
     "formate:fix": "prettier . --write",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "prepare": "husky install"
   },
   "author": "Anand Pandey <ianandpandey99@gmail.com>",
   "license": "ISC",
@@ -20,5 +21,8 @@
     "eslint-config-prettier": "^9.1.0",
     "prettier": "3.2.4",
     "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "husky": "^8.0.3"
   }
 }
